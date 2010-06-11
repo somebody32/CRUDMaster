@@ -12,6 +12,7 @@
 			function runSuites() {
 				JSpec
 				.exec('unit/crud_master_spec.js')
+				.exec('unit/crud_model_spec.js')
 				.run({ fixturePath: 'fixtures' })
 				.report()
 			}
