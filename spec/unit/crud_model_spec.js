@@ -12,8 +12,8 @@ describe 'CRUDModel'
 		model.should.respond_to 'destroy'
 	end
 	
-	it 'should store resource name'
-	  model.resource_name.should.eql "post"
+	it 'should store resource link'
+	  model.resource_link.should.eql "/posts/"
 	end
 
 	describe 'show action'	
